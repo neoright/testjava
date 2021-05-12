@@ -11,7 +11,7 @@ public class Hello {
 			if (0 == val % div)
 			{
 				isPrimeNum = false;
-				System.out.println("합성수");
+				System.out.println("Composite Number");
 				break;
 			}
 			
@@ -21,7 +21,7 @@ public class Hello {
 		
 		
 		if (isPrimeNum == true)
-			System.out.println("소수");
+			System.out.println("Prime Number");
 		
 		
 	}
